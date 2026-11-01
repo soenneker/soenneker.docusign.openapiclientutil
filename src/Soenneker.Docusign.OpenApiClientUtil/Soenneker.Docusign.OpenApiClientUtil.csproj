@@ -53,7 +53,7 @@
         <ProjectReference Include="..\..\..\soenneker.docusign.httpclients\src\Soenneker.Docusign.HttpClients\Soenneker.Docusign.HttpClients.csproj" Condition="Exists('..\..\..\soenneker.docusign.httpclients\src\Soenneker.Docusign.HttpClients\Soenneker.Docusign.HttpClients.csproj')" />
         <ProjectReference Include="..\..\..\soenneker.docusign.openapiclient\src\Soenneker.Docusign.OpenApiClient\Soenneker.Docusign.OpenApiClient.csproj" Condition="Exists('..\..\..\soenneker.docusign.openapiclient\src\Soenneker.Docusign.OpenApiClient\Soenneker.Docusign.OpenApiClient.csproj')" />
         <PackageReference Include="Soenneker.Docusign.HttpClients" Version="11.0.0" Condition="!Exists('..\..\..\soenneker.docusign.httpclients\src\Soenneker.Docusign.HttpClients\Soenneker.Docusign.HttpClients.csproj')" />
-        <PackageReference Include="Soenneker.Docusign.OpenApiClient" Version="11.0.0" Condition="!Exists('..\..\..\soenneker.docusign.openapiclient\src\Soenneker.Docusign.OpenApiClient\Soenneker.Docusign.OpenApiClient.csproj')" />
+        <PackageReference Include="Soenneker.Docusign.OpenApiClient" Version="11.0.2" Condition="!Exists('..\..\..\soenneker.docusign.openapiclient\src\Soenneker.Docusign.OpenApiClient\Soenneker.Docusign.OpenApiClient.csproj')" />
     </ItemGroup>
 </Project>
 
